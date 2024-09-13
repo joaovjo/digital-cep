@@ -1,0 +1,25 @@
+{
+    "name": "joaovjo/digital-cep",
+    "description": "Busca de cep online",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.0.1",
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "App\\DigitalCep\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "João Vitor",
+            "email": "joao-j-v@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+       "php": ">=7.2.0"
+    }
+}

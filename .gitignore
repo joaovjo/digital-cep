@@ -1,0 +1,25 @@
+# Ignorar arquivos de configuração do ambiente
+.env
+
+# Ignorar diretórios de dependências
+/vendor/
+
+# Ignorar arquivos de log
+/log/*.log
+
+# Ignorar arquivos de cache
+/cache/
+
+# Ignorar arquivos de sessão
+/sessions/
+
+# Ignorar arquivos de backup
+*.bak
+
+# Ignorar arquivos de upload
+/uploads/
+
+# Ignorar arquivos de configuração local
+config.local.php
+
+composer.lock
